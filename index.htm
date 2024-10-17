@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Digital Resume</title>
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        section {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .page1 {
+            height: 100vh;
+            background-color: #bf5700;
+            color: #ffffff;
+        }
+
+        .page2 {
+            background-color: #bf5700;
+            color: #ffffff;
+        }
+
+        .course-list {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            display: grid;
+            grid-template-columns: repeat(3, 20%);
+            gap: 14%;
+        }
+
+        .course-list li {
+            margin-bottom: 10px;
+        }
+
+        .activity-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            /* Set to 1fr for a single-column layout */
+            gap: 20px;
+        }
+
+        .activity-box {
+            border-radius: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+            padding: 20px;
+            margin-left: 5%;
+            max-width: 75%;
+        }
+
+        .activity-box img {
+            width: 100%;
+            height: auto;
+            margin-bottom: 10px;
+        }
+
+        a {
+            margin-top: auto;
+            margin: auto auto 0;
+        }
+    </style>
+</head>
+
+<body>
+    <section class="page1" id="page1">
+        <h2 style="margin-top:auto; margin-left:2%"><span style="font-size: 60px;">Merrick Beauchamp</span><br><span style="font-size: 20px">Dedicated and Well-Rounded Student with a Passion for Academics and Community Service</span></h2>
+
+        <a href="#page2"><svg style="fill: #FFFFFF;" width="80px" height="80px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" viewBox="0 0 100 125" enable-background="new 0 0 100 100" xml:space="preserve"><polygon points="53.681,60.497 53.681,60.497 75.175,39.001 71.014,34.843 49.519,56.337 29.006,35.823 24.846,39.982   49.519,64.656 "/></a>
+
+    </section>
+
+    <section id="page2" class="page2">
+        <div style="margin-left: 5%">
+            <h2>Education</h2>
+            <div>
+
+                <h2 class="header">Carnegie Vanguard High School, Houston, TX <span style="float: right; margin-right: 40%">June 2025</span></h2>
+
+                <h3>Completed AP Courses</h3>
+                <ul class="course-list">
+                    <li>Statistics (5)</li>
+                    <li>Precalculus (5)</li>
+                    <li>World History: Modern (5)</li>
+                    <li>Physics 1 (4)</li>
+                    <li>United States History (4)</li>
+                    <li>Human Geography (3)</li>
+                    <li>English Language & Composition (3)</li>
+                    <li>Research (3)</li>
+                    <li>Seminar (3)</li>
+                </ul>
+
+                <h3 style="margin-top: 100px">Pursuing AP Courses</h3>
+                <ul class="course-list">
+                    <li>Macroeconomics</li>
+                    <li>United States Government and Politics</li>
+                    <li>Calculus AB</li>
+                    <li>Environmental Science</li>
+                    <li>Physics C: Mechanics</li>
+                    <li>Physics C: Electricity and Magnetism</li>
+                    <li>English Literature and Composition</li>
+                </ul>
+
+                <div class="university-info">
+                    <h2 style="margin-top: 100px">University of Michigan, Ann Arbor, Michigan<span style="float: right; margin-right: 40%">July 2022 & July 2023</span></h2>
+                    <p>Math and Science Scholar</p>
+                    <p>Attended advanced summer courses in art & mathematics, and cryptology. Experienced college life and gained a deeper knowledge of these subjects.</p>
+
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+        <div class="activity-grid">
+            <h2 style="margin-left: 5%;">Leadership and Community Involvement</h2>
+            <div class="activity-box">
+                <h3>Food Gatherers: Community Kitchen</h3>
+                <img src="food_gatherers.jpg" alt="Food Gatherers image">
+                <ul>
+                    <li>Prepared and served nutritious meals to a large population.</li>
+                    <li>Proficiently handled various kitchen tasks.</li>
+                    <li>Maintained a clean and sanitary work environment.</li>
+                    <li>Assisted in training new volunteers.</li>
+                </ul>
+                <p>Hours/Week: 11 hr/wk</p>
+                <p>Weeks/Year: 8 wk/yr</p>
+            </div>
+            <div class="activity-box">
+  <h3>Crash Yearbook: Carnegie Vanguard High School</h3>
+  <img src="crash_yearbook.jpg" alt="Crash Yearbook image">
+  <ul>
+    <li>Led yearbook workshops and mentored team members.</li>
+    <li>Created and designed a 150 page yearbook.</li>
+    <li>Captured events through photography.</li>
+    <li>Provided technical support, including presentations on yearbook standards and how to use cameras and yearbook software.</li>
+  </ul>
+  <p>Hours/Week: 4 hr/wk</p>
+  <p>Weeks/Year: 36 wk/yr</p>
+</div>
+<div class="activity-box">
+  <h3>Jewish Student Union: Carnegie Vanguard High School</h3>
+  <img src="jewish_student_union.jpg" alt="Jewish Student Union image">
+  <ul>
+    <li>Contributed to meetings and led discussions.</li>
+    <li>Welcomed new members and provided Jewish refreshments.</li>
+    <li>Fostered an inclusive community.</li>
+  </ul>
+  <p>Hours/Week: 2 hr/wk</p>
+  <p>Weeks/Year: 18 wk/yr</p>
+</div>
+<div class="activity-box">
+  <h3>Ann Arbor Art Center</h3>
+  <img src="ann_arbor_art_center.jpg" alt="Ann Arbor Art Center image">
+  <ul>
+    <li>Created a large number of art boxes for donation to schools and organizations.</li>
+    <li>Served as a camp counselor, assisting with art projects, supervising activities, and leading field trips and games.</li>
+  </ul>
+  <p>Hours/Week: 18 hr/wk</p>
+  <p>Weeks/Year: 3 wk/yr</p>
+</div>
+<div class="activity-box">
+  <h3>Library: Carnegie Vanguard High School</h3>
+  <img src="library_carnegie_vanguard.jpg" alt="Library Carnegie Vanguard High School image">
+  <ul>
+    <li>Managed books in the library, including inventory, organization, finding books, and checking books in and out.</li>
+    <li>Maintained a clean library environment by vacuuming and removing trash.</li>
+    <li>Supervised the library during lunch.</li>
+    <li>Created a computer application to track the number of students in the library using ID scans.</li>
+  </ul>
+  <p>Hours/Week: 5 hr/wk</p>
+  <p>Weeks/Year: 37 wk/yr</p>
+</div>
+<div class="activity-box">
+  <h3>Local Middle School</h3>
+  <img src="local_middle_school.jpg" alt="Local Middle School image">
+  <ul>
+    <li>Provided after-school tutoring in various subjects.</li>
+    <li>Served as a positive role model for students.</li>
+    <li>Communicated effectively with students to understand their needs.</li>
+    <li>Assisted students with completing homework assignments.</li>
+  </ul>
+  <p>Hours/Week: 3 hr/wk</p>
+  <p>Weeks/Year: 15 wk/yr</p>
+</div>
+<div class="activity-box">
+  <h3>National Honor Society: Carnegie Vanguard High School</h3>
+  <img src="national_honor_society.jpg" alt="National Honor Society image">
+  <ul>
+    <li>Actively participated in community service initiatives.</li>
+    <li>Maintained a strong academic record with excellent grades.</li>
+    <li>Served as a dedicated leader in the National Honor Society.</li>
+    <li>Regularly attended NHS meetings and actively contributed to discussions.</li>
+  </ul>
+  <p>Hours/Week: 2 hr/wk</p>
+  <p>Weeks/Year: 37 wk/yr</p>
+</div>
+<div class="activity-box">
+  <h3>Mu Alpha Theta: Carnegie Vanguard High School</h3>
+  <img src="mu_alpha_theta.jpg" alt="Mu Alpha Theta image">
+  <ul>
+    <li>Competed at a high level in math competitions such as the AMC.</li>
+    <li>Regularly attended math problem-solving meetings.</li>
+    <li>Provided tutoring to students struggling with math concepts.</li>
+  </ul>
+  <p>Hours/Week: 2 hr/wk</p>
+  <p>Weeks/Year: 18 wk/yr</p>
+</div>
+<div class="activity-box">
+  <h3>Pep Rally: Carnegie Vanguard High School</h3>
+  <img src="pep_rally.jpg" alt="Pep Rally image">
+  <ul>
+    <li>Organized and executed successful pep rallies.</li>
+    <li>Created engaging videos featuring students to showcase school spirit at pep rallies.</li>
+    <li>Managed and coordinated rehearsals for pep rally performances.</li>
+  </ul>
+  <p>Hours/Week: 4 hr/wk</p>
+  <p>Weeks/Year: 4 wk/yr</p>
+</div>
+        </div>
+        
+    </section>
+
+    <section id="page3">
+        <h2>Page 3</h2>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
